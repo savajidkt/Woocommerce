@@ -1,0 +1,33 @@
+2022-11-11T09:09:36+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in D:\xampp\htdocs\wordpress\wp-content\plugins\woo-discount\woo-discount.php:96
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): action_woocommerce_settings_my_discount_tab('')
+#1 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\views\html-admin-settings.php(40): do_action('woocommerce_set...')
+#4 D:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(154): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(286): WC_Admin_Settings::output()
+#6 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): WC_Admin_Menus->settings_page('')
+#7 D:\xampp\htdocs\wordpress\wp in D:\xampp\htdocs\wordpress\wp-content\plugins\woo-discount\woo-discount.php on line 96
+
+2022-11-11T09:11:05+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in D:\xampp\htdocs\wordpress\wp-content\plugins\woo-discount\woo-discount.php:96
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): action_woocommerce_settings_my_discount_tab('')
+#1 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\views\html-admin-settings.php(40): do_action('woocommerce_set...')
+#4 D:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(154): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(286): WC_Admin_Settings::output()
+#6 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): WC_Admin_Menus->settings_page('')
+#7 D:\xampp\htdocs\wordpress\wp in D:\xampp\htdocs\wordpress\wp-content\plugins\woo-discount\woo-discount.php on line 96
+
+2022-11-11T09:42:12+00:00 CRITICAL Uncaught Error: Call to undefined function get_custom_settings() in D:\xampp\htdocs\wordpress\wp-content\plugins\woo-discount\woo-discount.php:90
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): action_woocommerce_settings_my_discount_tab('')
+#1 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\views\html-admin-settings.php(40): do_action('woocommerce_set...')
+#4 D:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(154): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(286): WC_Admin_Settings::output()
+#6 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): WC_Admin_Menus->settings_page('')
+#7 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hoo in D:\xampp\htdocs\wordpress\wp-content\plugins\woo-discount\woo-discount.php on line 90
+
